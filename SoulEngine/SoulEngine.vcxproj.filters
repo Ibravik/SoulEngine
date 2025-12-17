@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{7b126d11-bf87-4b0b-8a26-524d34fad35c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{9109fd2f-d85f-404f-8f34-1e4324cd5650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{168bbe36-53fe-406b-9479-b0e37162f7e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImGUI">
+      <UniqueIdentifier>{d7f73d66-8542-4214-b72f-c0918a755fa4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\soActor.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soAnimation.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soAssetManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soCamera.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soCameraManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soEditorControl.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soGraphicDebugManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soJoint.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soKeyFrame.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soMaterial.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soMesh.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soModel.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soResource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soResourceFactory.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soResourceManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soSceneGraph.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soSkeletalModel.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soSkeletalModelComponent.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soStaticModel.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soStaticModelComponent.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soTexture.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soWorldManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Soul_Engine.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SoulEngineDataStruct.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soAnimationDataManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soComponentFactory.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soLight.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soVRManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soTerrain.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soPhysicsManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soComponent.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui_internal.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stb_rect_pack.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stb_textedit.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stb_truetype.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imconfig.h">
+      <Filter>ImGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soState.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soFiniteStateMachine.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soEditorCamera.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soImGuiManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soPhysicComponent.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soMaterialManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soSceneNode.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soParticleSystem.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soFont.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\soActor.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soAnimation.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soAssetManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soCamera.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soCameraManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soComponent.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soComponentFactory.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soEditorControl.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soGraphicDebugManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soKeyFrame.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soMaterial.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soMesh.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soJoint.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soModel.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soResource.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soResourceFactory.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soResourceManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soSkeletalModel.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soSkeletalModelComponent.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soStaticModel.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soStaticModelComponent.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soTexture.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soSceneGraph.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soWorldManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soAnimationDataManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soLight.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soVRManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soTerrain.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soPhysicsManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soState.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soFiniteStateMachine.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soEditorCamera.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_draw.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui_demo.cpp">
+      <Filter>ImGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soImGuiManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soPhysicComponent.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soMaterialManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soSceneNode.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soParticleSystem.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soFont.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|Win32">
+      <Configuration>Profile</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Profile|x64">
+      <Configuration>Profile</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\imconfig.h" />
+    <ClInclude Include="include\imgui.h" />
+    <ClInclude Include="include\imgui_internal.h" />
+    <ClInclude Include="include\soActor.h" />
+    <ClInclude Include="include\soAnimation.h" />
+    <ClInclude Include="include\soAnimationDataManager.h" />
+    <ClInclude Include="include\soAssetManager.h" />
+    <ClInclude Include="include\soCamera.h" />
+    <ClInclude Include="include\soCameraManager.h" />
+    <ClInclude Include="include\soComponent.h" />
+    <ClInclude Include="include\soComponentFactory.h" />
+    <ClInclude Include="include\soEditorCamera.h" />
+    <ClInclude Include="include\soEditorControl.h" />
+    <ClInclude Include="include\soFont.h" />
+    <ClInclude Include="include\soImGuiManager.h" />
+    <ClInclude Include="include\soFiniteStateMachine.h" />
+    <ClInclude Include="include\soGraphicDebugManager.h" />
+    <ClInclude Include="include\soJoint.h" />
+    <ClInclude Include="include\soKeyFrame.h" />
+    <ClInclude Include="include\soLight.h" />
+    <ClInclude Include="include\soMaterial.h" />
+    <ClInclude Include="include\soMaterialManager.h" />
+    <ClInclude Include="include\soMesh.h" />
+    <ClInclude Include="include\soModel.h" />
+    <ClInclude Include="include\soParticleSystem.h" />
+    <ClInclude Include="include\soPhysicComponent.h" />
+    <ClInclude Include="include\soPhysicsManager.h" />
+    <ClInclude Include="include\soResource.h" />
+    <ClInclude Include="include\soResourceFactory.h" />
+    <ClInclude Include="include\soResourceManager.h" />
+    <ClInclude Include="include\soSceneGraph.h" />
+    <ClInclude Include="include\soSceneNode.h" />
+    <ClInclude Include="include\soSkeletalModel.h" />
+    <ClInclude Include="include\soSkeletalModelComponent.h" />
+    <ClInclude Include="include\soState.h" />
+    <ClInclude Include="include\soStaticModel.h" />
+    <ClInclude Include="include\soStaticModelComponent.h" />
+    <ClInclude Include="include\soTerrain.h" />
+    <ClInclude Include="include\soTexture.h" />
+    <ClInclude Include="include\SoulEngineDataStruct.h" />
+    <ClInclude Include="include\Soul_Engine.h" />
+    <ClInclude Include="include\soVRManager.h" />
+    <ClInclude Include="include\soWorldManager.h" />
+    <ClInclude Include="include\stb_rect_pack.h" />
+    <ClInclude Include="include\stb_textedit.h" />
+    <ClInclude Include="include\stb_truetype.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\imgui.cpp" />
+    <ClCompile Include="src\imgui_demo.cpp" />
+    <ClCompile Include="src\imgui_draw.cpp" />
+    <ClCompile Include="src\soActor.cpp" />
+    <ClCompile Include="src\soAnimation.cpp" />
+    <ClCompile Include="src\soAnimationDataManager.cpp" />
+    <ClCompile Include="src\soAssetManager.cpp" />
+    <ClCompile Include="src\soCamera.cpp" />
+    <ClCompile Include="src\soCameraManager.cpp" />
+    <ClCompile Include="src\soComponent.cpp" />
+    <ClCompile Include="src\soComponentFactory.cpp" />
+    <ClCompile Include="src\soEditorCamera.cpp" />
+    <ClCompile Include="src\soEditorControl.cpp" />
+    <ClCompile Include="src\soFont.cpp" />
+    <ClCompile Include="src\soImGuiManager.cpp" />
+    <ClCompile Include="src\soFiniteStateMachine.cpp" />
+    <ClCompile Include="src\soGraphicDebugManager.cpp" />
+    <ClCompile Include="src\soJoint.cpp" />
+    <ClCompile Include="src\soKeyFrame.cpp" />
+    <ClCompile Include="src\soLight.cpp" />
+    <ClCompile Include="src\soMaterial.cpp" />
+    <ClCompile Include="src\soMaterialManager.cpp" />
+    <ClCompile Include="src\soMesh.cpp" />
+    <ClCompile Include="src\soModel.cpp" />
+    <ClCompile Include="src\soParticleSystem.cpp" />
+    <ClCompile Include="src\soPhysicComponent.cpp" />
+    <ClCompile Include="src\soPhysicsManager.cpp" />
+    <ClCompile Include="src\soResource.cpp" />
+    <ClCompile Include="src\soResourceFactory.cpp" />
+    <ClCompile Include="src\soResourceManager.cpp" />
+    <ClCompile Include="src\soSceneGraph.cpp" />
+    <ClCompile Include="src\soSceneNode.cpp" />
+    <ClCompile Include="src\soSkeletalModel.cpp" />
+    <ClCompile Include="src\soSkeletalModelComponent.cpp" />
+    <ClCompile Include="src\soState.cpp" />
+    <ClCompile Include="src\soStaticModel.cpp" />
+    <ClCompile Include="src\soStaticModelComponent.cpp" />
+    <ClCompile Include="src\soTerrain.cpp" />
+    <ClCompile Include="src\soTexture.cpp" />
+    <ClCompile Include="src\soVRManager.cpp" />
+    <ClCompile Include="src\soWorldManager.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{399F3E41-7C4E-4B8C-92B1-8CFAAE136293}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SoulEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)lib\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediate\Unused\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+    <TargetName>SoulEngine</TargetName>
+    <IncludePath>$(ProjectDir)include\;$(SolutionDir)SoulStandardTools\include\;$(SolutionDir)SoulMath\include\;$(SolutionDir)SoulAI\include\;$(SolutionDir)SoulGUI\include\;$(SolutionDir)SoulCore\include\;$(SolutionDir)SoulD3D11APIGraphic\include\;$(DXSDK_DIR)Include\;$(ASSIMP_DIR)include\;$(OPENVRSDK_DIR)headers\;$(PHYSXSDK_DIR)Include\;$(IMGUI_DIR);$(FREEIMAGE_DIR)Dist\$(PlatformTarget)\;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">
+    <OutDir>$(SolutionDir)lib\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediate\Unused\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+    <TargetName>SoulEngine</TargetName>
+    <IncludePath>$(ProjectDir)include\;$(SolutionDir)SoulStandardTools\include\;$(SolutionDir)SoulMath\include\;$(SolutionDir)SoulAI\include\;$(SolutionDir)SoulGUI\include\;$(SolutionDir)SoulCore\include\;$(SolutionDir)SoulD3D11APIGraphic\include\;$(DXSDK_DIR)Include\;$(ASSIMP_DIR)include\;$(OPENVRSDK_DIR)headers\;$(PHYSXSDK_DIR)Include\;$(IMGUI_DIR);$(FREEIMAGE_DIR)Dist\$(PlatformTarget)\;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)lib\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediate\Unused\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+    <TargetName>SoulEngine</TargetName>
+    <IncludePath>$(ProjectDir)include\;$(SolutionDir)SoulStandardTools\include\;$(SolutionDir)SoulMath\include\;$(SolutionDir)SoulAI\include\;$(SolutionDir)SoulGUI\include\;$(SolutionDir)SoulCore\include\;$(SolutionDir)SoulD3D11APIGraphic\include\;$(DXSDK_DIR)Include\;$(ASSIMP_DIR)include\;$(OPENVRSDK_DIR)headers\;$(PHYSXSDK_DIR)Include\;$(IMGUI_DIR);$(FREEIMAGE_DIR)Dist\$(PlatformTarget)\;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)lib\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediate\Unused\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+    <TargetName>SoulEngine</TargetName>
+    <IncludePath>$(ProjectDir)include\;$(SolutionDir)SoulStandardTools\include\;$(SolutionDir)SoulMath\include\;$(SolutionDir)SoulAI\include\;$(SolutionDir)SoulGUI\include\;$(SolutionDir)SoulCore\include\;$(SolutionDir)SoulD3D11APIGraphic\include\;$(DXSDK_DIR)Include\;$(ASSIMP_DIR)include\;$(OPENVRSDK_DIR)headers\;$(PHYSXSDK_DIR)Include\;$(IMGUI_DIR);$(FREEIMAGE_DIR)Dist\$(PlatformTarget)\;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
+    <OutDir>$(SolutionDir)lib\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediate\Unused\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+    <TargetName>SoulEngine</TargetName>
+    <IncludePath>$(ProjectDir)include\;$(SolutionDir)SoulStandardTools\include\;$(SolutionDir)SoulMath\include\;$(SolutionDir)SoulAI\include\;$(SolutionDir)SoulGUI\include\;$(SolutionDir)SoulCore\include\;$(SolutionDir)SoulD3D11APIGraphic\include\;$(DXSDK_DIR)Include\;$(ASSIMP_DIR)include\;$(OPENVRSDK_DIR)headers\;$(PHYSXSDK_DIR)Include\;$(IMGUI_DIR);$(FREEIMAGE_DIR)Dist\$(PlatformTarget)\;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)lib\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)Intermediate\Unused\$(Configuration)\$(Platform)\$(ProjectName)\</IntDir>
+    <TargetName>SoulEngine</TargetName>
+    <IncludePath>$(ProjectDir)include\;$(SolutionDir)SoulStandardTools\include\;$(SolutionDir)SoulMath\include\;$(SolutionDir)SoulAI\include\;$(SolutionDir)SoulGUI\include\;$(SolutionDir)SoulCore\include\;$(SolutionDir)SoulD3D11APIGraphic\include\;$(DXSDK_DIR)Include\;$(ASSIMP_DIR)include\;$(OPENVRSDK_DIR)headers\;$(PHYSXSDK_DIR)Include\;$(IMGUI_DIR);$(FREEIMAGE_DIR)Dist\$(PlatformTarget)\;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <SDLCheck>false</SDLCheck>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <SDLCheck>false</SDLCheck>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
