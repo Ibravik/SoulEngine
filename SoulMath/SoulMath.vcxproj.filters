@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PrimitiveCollition">
+      <UniqueIdentifier>{67b2e0ed-fb46-481b-8bbd-54f7b1bd7b14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{02ccc58f-5379-4668-a3a6-ac201e582555}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{ce710fd6-1d66-4bb3-a3df-fc7d610aae38}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\soPlane.h">
+      <Filter>PrimitiveCollition</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soRay.h">
+      <Filter>PrimitiveCollition</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soSphere.h">
+      <Filter>PrimitiveCollition</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soAABB.h">
+      <Filter>PrimitiveCollition</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soFrustrum.h">
+      <Filter>PrimitiveCollition</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soVector2D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soVector3D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soVector4D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soWindowsMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soColor.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soDegrees.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soMatrix3D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soMatrix4D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soPlatformMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soRadians.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Soul_Math.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soRect.h">
+      <Filter>PrimitiveCollition</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soPoint.h">
+      <Filter>PrimitiveCollition</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soRotator.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soPhysicObject.h">
+      <Filter>PrimitiveCollition</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soTransform.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soQuaternion.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\soRadians.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soVector2D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soVector3D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soVector4D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soColor.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soDegrees.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soMatrix3D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soMatrix4D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soPlatformMath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soAABB.cpp">
+      <Filter>PrimitiveCollition</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soFrustrum.cpp">
+      <Filter>PrimitiveCollition</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soPlane.cpp">
+      <Filter>PrimitiveCollition</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soRay.cpp">
+      <Filter>PrimitiveCollition</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soSphere.cpp">
+      <Filter>PrimitiveCollition</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soRect.cpp">
+      <Filter>PrimitiveCollition</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soPoint.cpp">
+      <Filter>PrimitiveCollition</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soRotator.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soPhysicObject.cpp">
+      <Filter>PrimitiveCollition</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soTransform.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soQuaternion.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
