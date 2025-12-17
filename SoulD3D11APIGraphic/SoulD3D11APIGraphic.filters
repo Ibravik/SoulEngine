@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GraphicsManagers">
+      <UniqueIdentifier>{b05382ac-3bcc-4fad-9460-908ba39e65c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{40d0888b-f5df-43b8-b947-be01b987d80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicResources">
+      <UniqueIdentifier>{20beb8f3-0050-48dc-8eb0-851209572d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cameras">
+      <UniqueIdentifier>{17136937-e998-48df-9bb4-8a123fefdb8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{f267b4c3-fae2-4948-8f64-6896c8fd1ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\StaticModel">
+      <UniqueIdentifier>{3e01d375-47e1-4c39-810f-8270ff1c5a46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Deferred Rendering">
+      <UniqueIdentifier>{35de0515-53ee-4932-819f-f8f5e9c61aff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Soul_Graphics.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soShader.h">
+      <Filter>GraphicResources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soInputLayout.h">
+      <Filter>GraphicResources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soFragmentShader.h">
+      <Filter>GraphicResources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soVertexShader.h">
+      <Filter>GraphicResources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soConstantBuffer.h">
+      <Filter>GraphicResources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soVertexBuffer.h">
+      <Filter>GraphicResources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soIndexBuffer.h">
+      <Filter>GraphicResources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soMaterial.h">
+      <Filter>GraphicResources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soTexture.h">
+      <Filter>GraphicResources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soCamera.h">
+      <Filter>Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soStaticMesh.h">
+      <Filter>Model\StaticModel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soStaticModel.h">
+      <Filter>Model\StaticModel</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soTreeNode.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="soEffect.h">
+      <Filter>Deferred Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soRenderPass.h">
+      <Filter>Deferred Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="soTechnique.h">
+      <Filter>Deferred Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soDXGIManager.h">
+      <Filter>GraphicsManagers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soCameraManager.h">
+      <Filter>GraphicsManagers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\soDXGIManager.cpp">
+      <Filter>GraphicsManagers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soShader.cpp">
+      <Filter>GraphicResources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soFragmentShader.cpp">
+      <Filter>GraphicResources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soInputLayout.cpp">
+      <Filter>GraphicResources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soVertexShader.cpp">
+      <Filter>GraphicResources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soConstantBuffer.cpp">
+      <Filter>GraphicResources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soVertexBuffer.cpp">
+      <Filter>GraphicResources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soIndexBuffer.cpp">
+      <Filter>GraphicResources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soMaterial.cpp">
+      <Filter>GraphicResources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soTexture.cpp">
+      <Filter>GraphicResources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soCamera.cpp">
+      <Filter>Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soStaticMesh.cpp">
+      <Filter>Model\StaticModel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soStaticModel.cpp">
+      <Filter>Model\StaticModel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soTreeNode.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soRenderPass.cpp">
+      <Filter>Deferred Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="soEffect.cpp">
+      <Filter>Deferred Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="soTechnique.cpp">
+      <Filter>Deferred Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soCameraManager.cpp">
+      <Filter>GraphicsManagers</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

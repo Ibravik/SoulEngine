@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="D3D11Resources">
+      <UniqueIdentifier>{0f38ceef-c00c-4ce2-b35a-dc29c2b2515f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D11Managers">
+      <UniqueIdentifier>{8b2e9528-8298-4b2d-a683-73cecf210c78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3D11Tools">
+      <UniqueIdentifier>{9f491e73-725c-49bf-a05a-1a927c683fda}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\soDXGIManager.cpp">
+      <Filter>D3D11Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soVertexBuffer.cpp">
+      <Filter>D3D11Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soVertexShader.cpp">
+      <Filter>D3D11Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soFragmentShader.cpp">
+      <Filter>D3D11Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soIndexBuffer.cpp">
+      <Filter>D3D11Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soInputLayout.cpp">
+      <Filter>D3D11Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soSampler.cpp">
+      <Filter>D3D11Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soDeviceSwapChain.cpp">
+      <Filter>D3D11Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soDepthStencil.cpp">
+      <Filter>D3D11Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soViewPort.cpp">
+      <Filter>D3D11Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soRasterizerState.cpp">
+      <Filter>D3D11Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soAPITexture.cpp">
+      <Filter>D3D11Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soBuffer.cpp">
+      <Filter>D3D11Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soConstantBuffer.cpp">
+      <Filter>D3D11Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soComputeShader.cpp">
+      <Filter>D3D11Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soBlendState.cpp">
+      <Filter>D3D11Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soRenderTarget.cpp">
+      <Filter>D3D11Resources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\soDXGIManager.h">
+      <Filter>D3D11Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soIndexBuffer.h">
+      <Filter>D3D11Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soInputLayout.h">
+      <Filter>D3D11Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soFragmentShader.h">
+      <Filter>D3D11Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Soul_Graphics.h">
+      <Filter>D3D11Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soVertexBuffer.h">
+      <Filter>D3D11Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soVertexShader.h">
+      <Filter>D3D11Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soSampler.h">
+      <Filter>D3D11Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soDeviceSwapChain.h">
+      <Filter>D3D11Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soDepthStencil.h">
+      <Filter>D3D11Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soViewPort.h">
+      <Filter>D3D11Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soRasterizerState.h">
+      <Filter>D3D11Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soAPITexture.h">
+      <Filter>D3D11Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soBuffer.h">
+      <Filter>D3D11Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soConstantBuffer.h">
+      <Filter>D3D11Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soComputeShader.h">
+      <Filter>D3D11Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soApiDefines.h">
+      <Filter>D3D11Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SoulD3D11APIGraphicDataStruct.h">
+      <Filter>D3D11Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soShader.h">
+      <Filter>D3D11Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soBlendState.h">
+      <Filter>D3D11Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soStructuredBuffer.h">
+      <Filter>D3D11Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soRenderTarget.h">
+      <Filter>D3D11Resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
