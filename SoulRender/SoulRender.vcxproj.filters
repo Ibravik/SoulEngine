@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{12039116-b1fd-45c6-b8e8-94232a2cb5a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderResources">
+      <UniqueIdentifier>{3c185df2-1a00-4b72-8f23-012ea3c316da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{d0772f74-7e0f-4f70-ace5-5c90ef435e47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Soul_Render.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soRenderPass.h">
+      <Filter>RenderResources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soTechnique.h">
+      <Filter>RenderResources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soEffect.h">
+      <Filter>RenderResources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soRenderManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SoulRenderDataStruct.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\soEffect.cpp">
+      <Filter>RenderResources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soRenderPass.cpp">
+      <Filter>RenderResources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soTechnique.cpp">
+      <Filter>RenderResources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soRenderManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

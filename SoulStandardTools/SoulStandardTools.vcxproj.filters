@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="include\soStringFormat.h">
+      <Filter>StandardTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soMacros.h">
+      <Filter>StandardTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soModule.h">
+      <Filter>StandardTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soPlatformTypes.h">
+      <Filter>StandardTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soStandardClass.h">
+      <Filter>StandardTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soStandardTools.h">
+      <Filter>StandardTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Soul_StandardTools.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soThread.h">
+      <Filter>StandardTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soTimer.h">
+      <Filter>StandardTools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soProfiler.h">
+      <Filter>StandardTools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="StandardTools">
+      <UniqueIdentifier>{56647b98-da75-4845-bed0-f37adc1df370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{08e51071-4257-4c8e-ad00-6fcccd44e29d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\soStringFormat.cpp">
+      <Filter>StandardTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soTimer.cpp">
+      <Filter>StandardTools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soProfiler.cpp">
+      <Filter>StandardTools</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
