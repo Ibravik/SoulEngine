@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{997225dc-4b4d-47fc-b051-1e8cd57ef244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{18c247bc-f667-4453-ac42-05936f5402dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Soul_GUI.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soFastDelegate.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soFastDelegateBind.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\SoGUI.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
